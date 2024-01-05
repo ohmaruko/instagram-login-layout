@@ -1,0 +1,88 @@
+.formOuterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--dark-gray);
+    font-size: 13px;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid var(--light-gray);
+    border-radius: 1px;
+    padding: 20px 0;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+
+.legend {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.username, .password {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    background-color: var(--gray);
+    border: 0.5px solid var(--light-gray);
+    border-radius: 5px;
+    color: var(--dark-gray);
+    font-size: 10px;
+}
+
+.button {
+    background-color: var(--light-blue);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: var(--blue)
+}
+.regular {
+    font-size: 12px;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: var(--blue);
+}
+
+@media (max-width: 700px) {
+    .formContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: none;
+        border-radius: 1px;
+        padding: 20px 0;
+        margin-top: 10px;
+        width: 300px;
+    }
+  }
