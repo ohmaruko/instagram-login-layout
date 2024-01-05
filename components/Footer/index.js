@@ -2,7 +2,8 @@ import styles from './Footer.module.css'
 
 export default function Footer() {
     return (
-        <footer className={styles.footer}>
+        <div className={styles.footerContainer}>
+            <footer className={styles.footer}>
             <a href='#' className={styles.link}>Meta</a>
             <a href='#' className={styles.link}>About</a>
             <a href='#' className={styles.link}>Blog</a>
@@ -19,5 +20,6 @@ export default function Footer() {
             <br />
             &copy; 2024 Instagram from Meta
         </footer>
+        </div>
     )
 }
