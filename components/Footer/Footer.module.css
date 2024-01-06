@@ -6,13 +6,18 @@
 }
 .footer {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     color: var(--dark-gray);
     font-size: 13px;
     width: 80%;
     margin-bottom: 50px;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .link {
     text-decoration: none;
