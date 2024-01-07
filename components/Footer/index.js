@@ -9,7 +9,9 @@ export default function Footer() {
                     {links.map((links) => <a href='#' className={styles.link}>{links}</a>)}
                 </div>
                 <br />
-                <p>&copy; 2024 Instagram from Meta</p>
+                <div>
+                    <a href='#' className={styles.link}>English <i className={styles.arrow}></i></a>&nbsp;
+                    &copy; 2024 Instagram from Meta</div>
             </footer>
         </div>
     )

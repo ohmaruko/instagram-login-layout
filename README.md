@@ -2,4 +2,5 @@
 ## Created by
 - Nogaki
 ## Description
-- instagram login page created with Next.js
+- This is an Instagram login page created with Next.js.
+- The page is responsive to desktop, tablet, and mobile.

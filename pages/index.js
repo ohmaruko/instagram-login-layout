@@ -16,17 +16,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.container}>
         <main className={`${styles.main}, ${inter.className}`}>
           <div className={styles.content}>
-            <Image className={styles.image} src={'/Images/FeedImage.png'} alt="feed image" width={400} height={600}/>
+            <Image className={styles.image} src={'/Images/FeedImage.png'} alt="feed image" width={380} height={581}/>
             <Form />
           </div>
         </main>
         <footer className={inter.className}>
           <Footer />
         </footer>
-      </div>
+
     </>
   )
 }
