@@ -26,7 +26,9 @@ export default function Form () {
                     </fieldset>
                 </form>
                 <p> OR </p>
-                <a href='#' className={styles.bold}>Log in with Facebook</a><br />
+                <a href='#' className={styles.bold}>
+                <Image src={'/Images/facebook.png'} className={styles.facebookIcon} alt='google play' width={16} height={16}/>
+                &nbsp; Log in with Facebook</a><br />
                 <a href='#' className={styles.regular}>Forgot password?</a>
             </div>
             <div className={styles.formContainer}>
